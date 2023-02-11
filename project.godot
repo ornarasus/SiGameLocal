@@ -1,0 +1,61 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="SiGameLocal"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=720
+window/size/height=480
+window/size/resizable=false
+window/size/borderless=true
+window/size/always_on_top=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[mono]
+
+project/assembly_name="SiGameLocal"
+
+[physics]
+
+common/physics_fps=1
+2d/physics_engine="GodotPhysics"
+3d/active_soft_world=false
+3d/godot_physics/use_bvh=false
+2d/use_bvh=false
+2d/bp_hash_table_size=0
+2d/cell_size=0
+2d/large_object_surface_threshold_in_cells=0
+2d/bvh_collision_margin=0.0
+2d/sleep_threshold_linear=0.0
+2d/sleep_threshold_angular=0.0
+2d/time_before_sleep=0.0
+2d/default_gravity=0
+2d/default_gravity_vector=Vector2( 0, 0 )
+2d/default_linear_damp=0.0
+2d/default_angular_damp=0.0
+3d/default_gravity=0.0
+3d/default_gravity_vector=Vector3( 0, 0, 0 )
+3d/default_linear_damp=0.0
+3d/default_angular_damp=0.0
+common/enable_object_picking=false
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_environment="res://default_env.tres"
